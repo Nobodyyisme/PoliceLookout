@@ -1,35 +1,52 @@
-# PoliceLookout
+# 🚔 PoliceLookout
 
-PoliceLookout is a web application that helps monitor and report incidents with an easy-to-use interface.  
-It allows users to visualize reports, track activity, and contribute real-time updates.  
+PoliceLookout is a **Flutter + IoT-powered mobile application** designed for **real-time RFID-based tracking of officials**.  
+It ensures accurate monitoring of visitations, with **separate dashboards for officials and admins**.  
 
 ---
 
-## 🚀 Features
+## 📽️ Project Showcase
 
-- Real-time alert system  
-- Interactive map view of reported incidents  
-- User-friendly reporting interface  
-- Secure authentication & user management  
-- Database-backed storage of records  
+### Option 1: Embed Video (works only on GitHub Pages / markdown renderers with HTML5 support)
+<video src="demo.mp4" controls width="600"></video>
+
+### Option 2: Link to Video (always works on GitHub)
+[🎥 Watch Demo Video](./demo.mp4)
+
+---
+
+## ✨ Features
+
+- 📡 **Real-time RFID Tracking** – Track 500+ officials with 99.9% accuracy  
+- 🔗 **IoT Integration** – RFID-based attendance & duty monitoring  
+- ⚡ **High Performance** – Processes 1,000+ logs daily  
+- 👨‍💻 **Role-specific Interfaces** – Separate apps/dashboards for Officials & Admins  
+- 📊 **Admin Oversight** – Task delegation, log analysis, and real-time monitoring  
 
 ---
 
 ## 🛠 Tech Stack
 
-- **Frontend:** HTML, CSS, JavaScript (or React if used)  
-- **Backend:** Node.js / Express (or Flask/Django if Python)  
-- **Database:** MongoDB / PostgreSQL / MySQL  
-- **Other Tools:** Mapbox / Google Maps API / Leaflet  
+- **Mobile App:** Flutter, Dart, Material UI  
+- **Backend:** REST API  
+- **Database:** MySQL  
+- **IoT Hardware:** RFID with ESP32/ESP8266  
+- **Others:** JSON, HTTP, GitHub  
 
 ---
 
-## 📦 Installation
+- **Officials**: Use RFID cards to log visits.  
+- **Admins**: Monitor logs, verify duties, assign tasks.  
+
+---
+
+## 🚀 Installation & Setup
 
 ### Prerequisites
-- Node.js (>= 14) & npm or yarn  
-- Database (MongoDB/Postgres/MySQL) running locally or in cloud  
-- API keys for maps or external services (if required)  
+- Flutter SDK installed  
+- MySQL database  
+- REST API server configured  
+- IoT device (RFID module + ESP32/ESP8266)  
 
 ### Steps
 ```bash
@@ -38,14 +55,11 @@ git clone https://github.com/Nobodyyisme/PoliceLookout.git
 cd PoliceLookout
 
 # Install dependencies
-npm install
+flutter pub get
 
-# Setup environment variables
-cp .env.example .env
-# Edit .env with DB credentials, API keys, etc.
+# Run the app
+flutter run
 
-# Run database migrations (if applicable)
-npm run migrate
 
-# Start development server
-npm start
+## 📂 Project Architecture
+
