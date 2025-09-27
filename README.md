@@ -11,7 +11,7 @@ It ensures accurate monitoring of visitations, with **separate dashboards for of
 <video src="demo.mp4" controls width="600"></video>
 
 ### Option 2: Link to Video (always works on GitHub)
-[🎥 Watch Demo Video](./demo.mp4)
+[🎥 Watch Demo Video](https://drive.google.com/file/d/1UR08bEyJNY1MY-K1oBZVRIqhlDZx7QTc/view?usp=drivesdk)
 
 ---
 
