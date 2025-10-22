@@ -7,10 +7,23 @@ It ensures accurate monitoring of visitations, with **separate dashboards for of
 
 ## 📽️ Project Showcase
 
-### Option 1: Embed Video (works only on GitHub Pages / markdown renderers with HTML5 support)
-<video src="demo.mp4" controls width="600"></video>
+### Images
 
-### Option 2: Link to Video (always works on GitHub)
+<div align="center">
+<table>
+<tr>
+<td>
+<img src="A.png" width="300" />
+</td>
+<td style="padding-left: 30px;">
+<img src="B.png" width="300" />
+</td>
+</tr>
+</table>
+</div>
+
+
+### Link to Video
 [🎥 Watch Demo Video](https://drive.google.com/file/d/1UR08bEyJNY1MY-K1oBZVRIqhlDZx7QTc/view?usp=drivesdk)
 
 ---
