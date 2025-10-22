@@ -10,16 +10,17 @@ It ensures accurate monitoring of visitations, with **separate dashboards for of
 ### Images
 
 <div align="center">
-<table>
-<tr>
-<td>
-<img src="A.png" width="300" />
-</td>
-<td style="padding-left: 30px;">
-<img src="B.png" width="300" />
-</td>
-</tr>
-</table>
+  <table>
+    <tr>
+      <td><img src="A.png" width="300" /></td>
+      <td style="padding-left: 30px;"><img src="B.png" width="300" /></td>
+      <td style="padding-left: 30px;"><img src="C.png" width="300" /></td>
+    </tr>
+    <tr>
+      <td style="padding-top: 20px;"><img src="D.png" width="300" /></td>
+      <td style="padding-left: 30px; padding-top: 20px;"><img src="E.png" width="300" /></td>
+    </tr>
+  </table>
 </div>
 
 
